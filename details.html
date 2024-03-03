@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinnsetBD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!---top bar start-->
+    <div class="top-header">
+      <div class="top-header_row">
+        <div class="top-header_left">
+          <a href="#"><i class="fa-solid fa-phone"></i> 01999911981</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i>
+            support@dinnersetbd.com</a>
+          <a href="track-order.html"><i class="fa-solid fa-paper-plane"></i> Track Order</a>
+        </div>
+        <div class="top-header_right">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!--topbar end-->
+    <header class="navbar">
+      <a class="icon" href="JavaScript:void(0);" onclick="CheckSidebar()"><i
+          class="fa-solid fa-bars menu-icon"></i></a>
+      <a href="index.html" class="logo">DinnersetBD</a>
+      <div class="search-box">
+        <input type="text" class="search-input">
+        <button type="button" class="search-btn"><i
+            class="fa-solid fa-magnifying-glass search-icon"></i></button>
+      </div>
+      <a href="review.html" class="review-menu"><i
+          class="fa-solid fa-comment review-icon"></i>Review</a>
+      <a href="builder.html" class="builder-menu"><i
+          class="fa-solid fa-sliders builder-icon"></i>Builder</a>
+      <a href="cart.html" class="cart-menu"><i
+          class="fa-solid fa-cart-shopping cart-icon"></i></a>
+      <a href="login.html" class="login-btn">Login</a>
+
+    </header>
+    <!---sidebar start-->
+    <div id="sidebar">
+      <a href="index.html">Home Page</a>
+      <a href="builder.html">Builder Page</a>
+      <a href="cart.html">Cart Page</a>
+      <a href="checkout.html">Checkout Page</a>
+      <a href="details.html">Details Page</a>
+      <a href="details.html">Review Page</a>
+      <a href="seller-login.html">Seller Login Page</a>
+      <a href="seller-registration.html">Seller Registration Page</a>
+      <a href="terms.html">Terms Page</a>
+      <a href="track-order.html">Track Order Page</a>
+      <a href="policy.html">Policy</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="login.html">Basic Login</a>
+
+    </div>
+    <!--sidebar end-->
+    <!---details start -->
+    <div class="details_section">
+      <!--here is two blocks left and right-->
+      <div class="details_outer_row">
+        <div class="details_left">
+          <div class="details_sub">
+            <div class="details_sub_left">
+              <img src="image1.jpg" alt>
+            </div>
+            <div class="details_sub_right">
+              <h1>Product title</h1>
+              <h5>Sold by</h5>
+              <h3>Availability : <span>In Stock</span></h3>
+              <h4>Product price</h4>
+              <div class="details_sub2">
+                <select name="color_id">
+                  <option selected>select color</option>
+                  <option>red</option>
+                  <option>green</option>
+                  <option>blue</option>
+                </select>
+                <select name="size_id">
+                  <option selected>select size</option>
+                  <option>xl</option>
+                  <option>lg</option>
+                  <option>sm</option>
+                </select>
+              </div>
+              <select name="quantity" class="details_qty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <div class="details_sub3">
+                <button>Buy Now</button>
+                <a href>Add to Cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <p class="details_desp_title">Description</p>
+          <p class="details_desp">Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Quibusdam, iste!</p>
+        </div>
+        <div class="details_right">
+          <p><i class="fa-solid fa-money-bill"></i> Cash on Delivery</p>
+          <p><i class="fa-solid fa-truck-pickup"></i> Free Shipping</p>
+          <p><i class="fa-solid fa-rotate-left"></i> Return Policy</p>
+        </div>
+      </div>
+      <!---product review start-->
+
+      <div class="details_product_review">
+        <h1>Average Rating: 4 </h1>
+        <h2>Total Ratings : 200</h2>
+        <a class="details_product_review_btn">Login for Review</a>
+        <div class="review_form">
+          <h1>Write a Review ?</h1>
+
+          <form action>
+            <input type="text" name="review_title" class="review_title"
+              placeholder="what is in your mind ?">
+            <select name="review_rating" class="review_rating">
+              <option value>select rating</option>
+              <option value="1">1 / 5</option>
+              <option value="2">2 / 5</option>
+              <option value="3">3 / 5</option>
+              <option value="3">4 / 5</option>
+              <option value="4">5 / 5</option>
+            </select>
+            <button type="submit">Submit</button>
+          </form>
+
+        </div>
+      </div>
+
+      <!---product review end-->
+
+    </div>
+ <!-----Related product start-->
+<div class="related_products">
+<h1>Related products</h1>
+<div class="product-row">
+  <div class="single-product">
+    <span>sale</span>
+    <img src="image1.jpg" alt>
+    <a href class="product_title">product title</a>
+    <a href class="product_price">99.00BDT</a>
+    <div class="btn-groups">
+      <a href="#" class="single-product-cart"><i
+          class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#" class="single-product-buy">Buy</a>
+      <a href="#" class="single-product-save"><i
+          class="fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+  <div class="single-product">
+    <span>sale</span>
+    <img src="image1.jpg" alt>
+    <a href class="product_title">product title</a>
+    <a href class="product_price">99.00BDT</a>
+    <div class="btn-groups">
+      <a href="#" class="single-product-cart"><i
+          class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#" class="single-product-buy">Buy</a>
+      <a href="#" class="single-product-save"><i
+          class="fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+  <div class="single-product">
+    <span>sale</span>
+    <img src="image1.jpg" alt>
+    <a href class="product_title">product title</a>
+    <a href class="product_price">99.00BDT</a>
+    <div class="btn-groups">
+      <a href="#" class="single-product-cart"><i
+          class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#" class="single-product-buy">Buy</a>
+      <a href="#" class="single-product-save"><i
+          class="fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+  <div class="single-product">
+    <span>sale</span>
+    <img src="image1.jpg" alt>
+    <a href class="product_title">product title</a>
+    <a href class="product_price">99.00BDT</a>
+    <div class="btn-groups">
+      <a href="#" class="single-product-cart"><i
+          class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#" class="single-product-buy">Buy</a>
+      <a href="#" class="single-product-save"><i
+          class="fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+  <div class="single-product">
+    <span>sale</span>
+    <img src="image1.jpg" alt>
+    <a href class="product_title">product title</a>
+    <a href class="product_price">99.00BDT</a>
+    <div class="btn-groups">
+      <a href="#" class="single-product-cart"><i
+          class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#" class="single-product-buy">Buy</a>
+      <a href="#" class="single-product-save"><i
+          class="fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+
+ <!-----Related product end-->
+
+
+
+    <!---details end -->
+
+    <!---footer part start-->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_block">
+          <h1>Dinnerset BD</h1>
+          <h5>Happiness at your doorstep</h5>
+          <a href><i class="fa-solid fa-location-dot"></i>Dhaka</a>
+          <a href><i class="fa-solid fa-phone"></i>0199911981</a>
+          <a href><i
+              class="fa-solid fa-envelope"></i>support@dinnersetbd.com</a>
+
+        </div>
+        <div class="footer_block">
+          <p>Company</p>
+          <a href="track-order.html">Track Order</a>
+          <a>Seller Registration</a>
+        </div>
+        <div class="footer_block">
+          <p>Legal</p>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditioins</a>
+          <a href="policy.html">Return Policy</a>
+        </div>
+        <div class="footer_block social-icons">
+          <p>Follow Us</p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+      </div>
+      <div class="last_line">
+        <p>Dinnerset BD © All Right Reserved | Powerd By WebdesignBD</p>
+      </div>
+    </footer>
+
+    <!---footer part end-->
+
+    <script>
+
+
+function CheckSidebar(){
+  var sidebar = document.getElementById('sidebar');
+  sidebar.style.display = (sidebar.style.display === "none") ? "block" : "none";
+}
+  </script>
+  </body>
+</html>

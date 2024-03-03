@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinnsetBD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!---top bar start-->
+    <div class="top-header">
+      <div class="top-header_row">
+        <div class="top-header_left">
+          <a href="#"><i class="fa-solid fa-phone"></i> 01999911981</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i>
+            support@dinnersetbd.com</a>
+          <a href="#"><i class="fa-solid fa-paper-plane"></i> Track Order</a>
+        </div>
+        <div class="top-header_right">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!--topbar end-->
+    <header class="navbar">
+      <a class="icon" href="JavaScript:void(0);" onclick="CheckSidebar()"><i
+          class="fa-solid fa-bars menu-icon"></i></a>
+      <a href="index.html" class="logo">DinnersetBD</a>
+      <div class="search-box">
+        <input type="text" class="search-input">
+        <button type="button" class="search-btn"><i
+            class="fa-solid fa-magnifying-glass search-icon"></i></button>
+      </div>
+      <a href="review.html" class="review-menu"><i
+          class="fa-solid fa-comment review-icon"></i>Review</a>
+      <a href="builder.html" class="builder-menu"><i
+          class="fa-solid fa-sliders builder-icon"></i>Builder</a>
+      <a href="cart.html" class="cart-menu"><i
+          class="fa-solid fa-cart-shopping cart-icon"></i></a>
+      <a href="login.html" class="login-btn">Login</a>
+
+    </header>
+    <!---sidebar start-->
+    <div id="sidebar">
+      <a href="index.html">Home Page</a>
+      <a href="builder.html">Builder Page</a>
+      <a href="cart.html">Cart Page</a>
+      <a href="checkout.html">Checkout Page</a>
+      <a href="details.html">Details Page</a>
+      <a href="details.html">Review Page</a>
+      <a href="seller-login.html">Seller Login Page</a>
+      <a href="seller-registration.html">Seller Registration Page</a>
+      <a href="terms.html">Terms Page</a>
+      <a href="track-order.html">Track Order Page</a>
+      <a href="policy.html">Policy</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="login.html">Basic Login</a>
+
+    </div>
+    <!--sidebar end-->
+    <!--cart start-->
+    <div class="cart_section">
+      <div class="cart_left">
+        <h1>Shopping cart</h1>
+        <h5>
+          Own Product
+        </h5>
+        <div class="cart_block">
+          <div class="cart_detail_left">
+            <img src="image1.jpg" alt>
+          </div>
+          <div class="cart_detail_right">
+            <div class="cart_sub_row1">
+              <p class="cart_product_title">12 inch coup bowl</p>
+              <p class="cart_product_price">560.00BDT</p>
+            </div>
+            <p>Qty:2 price:1160.00BDT </p>
+            <div class="cart_sub_row2">
+              <div class="qty_group">
+                <button class="plus">+</button>
+                <input value="1" type="number" readonly>
+                <button class="minus">-</button>
+              </div>
+              <a class="cart_delete_btn">Delete</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="cart_block">
+          <div class="cart_detail_left">
+            <img src="image1.jpg" alt>
+          </div>
+          <div class="cart_detail_right">
+            <div class="cart_sub_row1">
+              <p class="cart_product_title">12 inch coup bowl</p>
+              <p class="cart_product_price">560.00BDT</p>
+            </div>
+            <p>Qty:2 price:1160.00BDT </p>
+            <div class="cart_sub_row2">
+              <div class="qty_group">
+                <button class="plus">+</button>
+                <input value="1" type="number" readonly>
+                <button class="minus">-</button>
+              </div>
+              <a class="cart_delete_btn">Delete</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="cart_block">
+          <div class="cart_detail_left">
+            <img src="image1.jpg" alt>
+          </div>
+          <div class="cart_detail_right">
+            <div class="cart_sub_row1">
+              <p class="cart_product_title">12 inch coup bowl</p>
+              <p class="cart_product_price">560.00BDT</p>
+            </div>
+            <p>Qty:2 price:1160.00BDT </p>
+            <div class="cart_sub_row2">
+              <div class="qty_group">
+                <button class="plus">+</button>
+                <input value="1" type="number" readonly>
+                <button class="minus">-</button>
+              </div>
+              <a class="cart_delete_btn">Delete</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="cart_right">
+        <h1>Total: 500 BDT</h1>
+        <small>Shipping Cost: 200 BDT</small>
+        <h1>Subtotal: 600 BDT</h1>
+        <a href="#" class="proceed_to_checkout">Proceed to Checkout</a>
+      </div>
+    </div>
+    <!---cart end-->
+
+    <!---footer part start-->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_block">
+          <h1>Dinnerset BD</h1>
+          <h5>Happiness at your doorstep</h5>
+          <a href><i class="fa-solid fa-location-dot"></i>Dhaka</a>
+          <a href><i class="fa-solid fa-phone"></i>0199911981</a>
+          <a href><i
+              class="fa-solid fa-envelope"></i>support@dinnersetbd.com</a>
+
+        </div>
+        <div class="footer_block">
+          <p>Company</p>
+          <a href>Track Order</a>
+          <a>Seller Registration</a>
+        </div>
+        <div class="footer_block">
+          <p>Legal</p>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditioins</a>
+          <a href="policy.html">Return Policy</a>
+        </div>
+        <div class="footer_block social-icons">
+          <p>Follow Us</p>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+      </div>
+      <div class="last_line">
+        <p>Dinnerset BD © All Right Reserved | Powerd By WebdesignBD</p>
+      </div>
+    </footer>
+
+    <!---footer part end-->
+
+    <script>
+
+
+function CheckSidebar(){
+  var sidebar = document.getElementById('sidebar');
+  sidebar.style.display = (sidebar.style.display === "none") ? "block" : "none";
+}
+  </script>
+  </body>
+</html>
